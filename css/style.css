@@ -1,0 +1,106 @@
+/*colors: #C97B84 #A85751 #7D2E68 #251351 #040926*/
+
+body {
+    background-color: #A85751;
+    font: normal 16px 'Century Gothic Light', arial, sans-serif;
+    padding-top: 30px;
+}
+
+nav {
+    background-color: #C97B84;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 30px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 7px 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #7D2E68;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    color:#251351;
+    position: relative;
+}
+
+div {
+    padding: 10px 20px;
+    text-align: center;
+}
+
+div form {
+    text-align: left;
+    background-color: #040926;
+    color:#7D2E68;
+    padding: 10px;
+}
+form h2 {
+    text-decoration: none;
+}
+
+#client-job {
+    width: 100%;
+    max-width: 500px;
+}
+
+img {
+    width: 100%;
+}
+
+button {
+    border-radius: 5px;
+}
+
+.scary {
+    display: none;
+    font: bold 1.3em impact, arial, sans-serif;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bolder;
+    text-decoration: underline;
+    position: relative;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+    background-color: red;
+    border: 2px dashed yellow;
+    margin: 20px;
+    position: relative;
+}
+#the-button {
+    background-color: #251351;
+    border-color: #251351;
+    color: #C97B84;
+}
+
+#danger {
+    position: fixed;
+    top: 0;
+    background-color: rgba(255, 0, 0, .5);
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: none;
+}
+ #danger h5 {
+     position: relative;
+     top:40%;
+     font: bolder 9em Impact, arial, sans-serif;
+     text-transform: uppercase;
+     text-decoration: underline;
+ }

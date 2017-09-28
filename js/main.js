@@ -1,4 +1,3 @@
-$('body').on('click', function(){
     $('nav').on('click', function(){
         $('nav').animate({
             width: 110,
@@ -49,7 +48,8 @@ $('body').on('click', function(){
         }
     });
 
-    $('#submit').on('click', function(){
+    $('form').on('submit', function(e){
+        e.preventDefault();
         $('form').animate({
             opacity: 0.25
         }, 5000, function(){
@@ -126,4 +126,3 @@ $('body').on('click', function(){
         });
 
     });
-});
